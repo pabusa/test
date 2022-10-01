@@ -1,0 +1,28 @@
+h1 {
+    color:#FFD700;
+    text-align:center;
+}  
+
+body
+{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.a
+{
+    color: #0095ff;
+    font-size: large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.b
+{
+    font-size: large;
+    font-weight: bold;
+    font-family: serif;
+}
+
+::selection
+{
+    background-color: #00ff48;
+}

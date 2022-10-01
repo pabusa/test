@@ -1,0 +1,79 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Etiquetas genéricas HTML */
+h1 {
+    color: rosybrown;
+    font-size: 4vh;
+}
+
+h2 {
+    color: rebeccapurple;
+    font-size: 3vh;
+}
+
+h3 {
+    color: rebeccapurple;
+    font-size: 2vh;
+}
+
+p {
+    color: rgb(38, 0, 255);
+}
+
+main {
+    color: pink;
+}
+
+aside {
+    background-color: aquamarine;
+    margin: 0em;
+    border: 2px dashed #000000;
+    padding: 0.5em;
+}
+
+aside div {
+    margin: 1em;
+    border: 2px dashed red;
+    padding: 1em;
+}
+
+section {
+    padding: 2em;
+}
+
+/* Los ids que yo defino en mi HTML */
+
+#Violet{background-color: violet;}
+#Indigo{background-color: indigo;color: aliceblue;}
+#Blue{background-color: blue;}
+#Green{background-color: green;}
+#Yellow{background-color: yellow;}
+#Orange{background-color: orange;}
+#Red{background-color: red;}
+
+/* Las class que yo defino en mi HTML */
+
+.note {
+    color: grey;
+    background-color: rgba(204, 204, 204, 0.335);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    border-left: 10px solid #f90;
+    margin-left: 20px;
+    padding-left: 30px;
+
+    border-top: 1px dashed rgba(3, 3, 3, 0.777);
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+}
+
+.sports {
+    background-color: rgba(222, 140, 18, 0.421);
+}
+
+.music {
+    background-color: rgba(52, 159, 230, 0.455);
+}
